@@ -1,0 +1,7 @@
+import pandas as pd
+url= 'http://winterolympicsmedals.com/medals.csv'
+data = pd.read_csv(url)
+pd.DataFrame =data[(data['NOC'] =='FIN')]
+print("Số huy chương của FIN:",datas['Medal'].count())
+dataframe1=data[(data['Event'] =='individual') & (data['Medal']=='Gold')] 
+print("Số huy chương chương vàng theo môn cá nhân:",data1['Event'].count())
